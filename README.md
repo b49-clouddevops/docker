@@ -38,10 +38,10 @@ $ docker exec -it containerName bash ( To enter in to the container )
 ### How a docker container looks like ???
 
 ```
- docker.io/docker.io/imageName:version 
+* docker.io/docker.io/imageName:version 
 (repoName)(uesrName)
 
-Examples of repoNames:  docker.io , ecr.io , gcr.io
+--> Examples of repoNames:  docker.io , ecr.io , gcr.io
 
 ```
 
