@@ -58,9 +58,10 @@ Mounint the local linux directory on the containers directory to achieve directo
 $ docker run -p 80:80  -d  nginx
 
 ```
-
-
-
+### Dynamic Porting:
+```
+docker run -P  -d httpd
+```
 
 
 
