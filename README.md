@@ -69,3 +69,16 @@ docker run -P  -d httpd
  https://docs.docker.com/engine/reference/builder/
  
  ```
+
+### ENTRYPOINT vs CMD
+
+```
+ The ENTRYPOINT specifies a command that will always be executed when the container starts. The CMD specifies arguments that will be fed to the ENTRYPOINT.
+```
+
+### Both CMD and ENTRYPOINT instructions define what command gets executed when running a container. There are few rules that describe their co-operation.
+
+* Dockerfile should specify at least one of CMD or ENTRYPOINT commands.
+* ENTRYPOINT should be defined when using the container as an executable.
+* CMD should be used as a way of defining default arguments for an ENTRYPOINT command or for executing an ad-hoc command in a container.
+* CMD will be overridden when running the container with alternative arguments.

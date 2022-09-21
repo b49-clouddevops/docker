@@ -9,5 +9,7 @@ FROM  centos:7
 RUN     useradd roboshop 
 USER    roboshop 
 WORKDIR /home/roboshop  
-ARG     ENV  
-ENV     MONGO=mongo-${ENV}.roboshop.internal
+# ARG     ENV  
+# # ENV     MONGO=mongo-${ENV}.roboshop.internal
+
+# --build-arg needs validation  : We are going to deal in K8 : ConfigMap 
