@@ -96,5 +96,7 @@ docker tag docker.io/sanraman/cart:v1 imageID
 ### What are few of the best practices of DOCKER IMAGING
 
 ```
-* Size of the Docker Image has to be as minimal as possible 
-* Securiy of the Images 
+    * Size of the Docker Image has to be as minimal as possible 
+    * Securiy of the Images , it should zero to none vulnerabilites as per your organization standard
+
+```
