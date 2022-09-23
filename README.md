@@ -82,3 +82,12 @@ docker run -P  -d httpd
 * ENTRYPOINT should be defined when using the container as an executable.
 * CMD should be used as a way of defining default arguments for an ENTRYPOINT command or for executing an ad-hoc command in a container.
 * CMD will be overridden when running the container with alternative arguments.
+
+
+### How to tag an imageName during build ?
+
+docker build -t docker.io/sanraman/cart:v1 .  
+
+### How to tag an existing image ?
+
+docker tag docker.io/sanraman/
