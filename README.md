@@ -91,3 +91,10 @@ docker build -t docker.io/sanraman/cart:v1 .
 ### How to tag an existing image ?
 
 docker tag docker.io/sanraman/cart:v1 imageID 
+
+
+### What are few of the best practices of DOCKER IMAGING
+
+```
+* Size of the Docker Image has to be as minimal as possible 
+* Securiy of the Images 
